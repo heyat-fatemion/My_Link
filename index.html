@@ -15,7 +15,7 @@
       background-color: #e0f2e9;
       text-align: center;
       padding: 20px;
-      direction: rtl;
+      margin: 0;
     }
 
     .logo {
@@ -26,7 +26,8 @@
 
     h1 {
       color: #05552b;
-      font-size: 32px;
+      font-size: 28px;
+      margin-top: 10px;
     }
 
     .social {
@@ -35,18 +36,19 @@
 
     .social-item {
       margin: 10px auto;
-      padding: 10px;
+      padding: 10px 15px;
       background-color: #ffffffcc;
       border-radius: 12px;
-      max-width: 300px;
+      max-width: 90%;
       display: flex;
       align-items: center;
       gap: 10px;
+      justify-content: flex-start;
     }
 
     .social-item img {
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
     }
 
     .social-item a {
@@ -57,7 +59,7 @@
 
     .admin-contact {
       margin-top: 30px;
-      font-size: 20px;
+      font-size: 18px;
       color: #064c3b;
     }
 
@@ -66,7 +68,57 @@
       background-color: #ffffffaa;
       padding: 15px;
       border-radius: 10px;
-      font-size: 18px;
+      font-size: 17px;
+    }
+
+    .event-box {
+      margin-top: 40px;
+      background-color: #d8f3dc;
+      padding: 20px;
+      border: 2px dashed #16844f;
+      border-radius: 15px;
+      color: #064c3b;
+      font-size: 17px;
+      text-align: right;
+      line-height: 1.8;
+      max-width: 95%;
+      margin-inline: auto;
+    }
+
+    .event-box h2 {
+      margin-bottom: 10px;
+      color: #0a3d2b;
+      font-size: 20px;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      .social-item {
+        max-width: 300px;
+        padding: 12px 20px;
+      }
+
+      .social-item img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .social-item a {
+        font-size: 20px;
+      }
+
+      .admin-contact,
+      .description,
+      .event-box {
+        font-size: 18px;
+      }
+
+      .event-box h2 {
+        font-size: 22px;
+      }
     }
   </style>
 </head>
@@ -102,6 +154,18 @@
 
   <div class="description">
     در این صفحه می‌توانید به شبکه‌های اجتماعی رسمی هیئت فاطمیون دسترسی پیدا کنید و از برنامه‌ها و مراسم‌های ما مطلع شوید.
+  </div>
+
+  <div class="event-box">
+    <h2>📣 ایستگاه صلواتی</h2>
+    <p>به مناسبت ولادت امام هادی (ع)، عید سعید غدیر و ولادت امام موسی کاظم (ع)</p>
+    <p>📆 چهارشنبه ۲۱ خرداد تا یکشنبه ۲۵ خرداد</p>
+    <p>⏰ بعد از اذان مغرب و عشا</p>
+    <p>📍 خیابان آزادی، نبش خیابان بهبودی، کوچه شکاری</p>
+    <p>💳 شما هم می‌توانید سهیم باشید:  
+      <strong>5047061055777037</strong>
+    </p>
+    <p style="margin-top: 10px;">🔺 <strong>#هیئت_فاطمیون</strong></p>
   </div>
 </body>
 </html>
