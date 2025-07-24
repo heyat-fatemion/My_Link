@@ -1,19 +1,19 @@
-
 backend:
   name: github
   repo: username/repo-name
   branch: main
 
-media_folder: "assets/uploads"
-public_folder: "/assets/uploads"
+media_folder: "assets"
+public_folder: "/assets"
 
 collections:
-  - name: "posts"
-    label: "پست‌ها"
-    folder: "posts"
+  - name: "social"
+    label: "لینک‌های اجتماعی"
+    folder: "social"
     create: true
-    slug: "{{slug}}"
+    slug: "social"
     fields:
-      - {label: "عنوان", name: "title", widget: "string"}
-      - {label: "متن", name: "body", widget: "markdown"}
-      - {label: "ویدیو", name: "video", widget: "file"}
+      - {label: "متن اصلی", name: "main_text", widget: "text"}
+      - {label: "اینستاگرام", name: "instagram", widget: "string"}
+      - {label: "تلگرام", name: "telegram", widget: "string"}
+      - {label: "یوتیوب", name: "youtube", widget: "string"}
