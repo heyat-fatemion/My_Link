@@ -2,8 +2,8 @@ backend:
   name: github
   repo: heyat-fatemion/My_Link
   branch: main
-  # client_id و client_secret رو اضافه کن اگر GitHub OAuth ساختی
-
+  client_id: Ov23liVIs6RB42oiFg16
+  client_secret: 93dbba5cd1079d5a5eaf30c767adff3255a74f39
 media_folder: "assets"
 public_folder: "/assets"
 
