@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: username/repo-name
+  repo: heyat-fatemion/My_Link
   branch: main
 
 media_folder: "assets"
