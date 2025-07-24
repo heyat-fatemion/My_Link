@@ -2,6 +2,7 @@ backend:
   name: github
   repo: heyat-fatemion/My_Link
   branch: main
+  # client_id و client_secret رو اضافه کن اگر GitHub OAuth ساختی
 
 media_folder: "assets"
 public_folder: "/assets"
@@ -11,9 +12,9 @@ collections:
     label: "لینک‌های اجتماعی"
     folder: "social"
     create: true
-    slug: "social"
+    slug: "{{slug}}"
     fields:
-      - {label: "متن اصلی", name: "main_text", widget: "text"}
-      - {label: "اینستاگرام", name: "instagram", widget: "string"}
-      - {label: "تلگرام", name: "telegram", widget: "string"}
-      - {label: "یوتیوب", name: "youtube", widget: "string"}
+      - { label: "متن اصلی", name: "main_text", widget: "text" }
+      - { label: "اینستاگرام", name: "instagram", widget: "string" }
+      - { label: "تلگرام", name: "telegram", widget: "string" }
+      - { label: "یوتیوب", name: "youtube", widget: "string" }
